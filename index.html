@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Cirebon: Kota Wali & Budaya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B0000; /* Merah Maroon - Warna Keraton */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #4CAF50; /* Hijau - Warna Khas Jawa */
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* PERUBAHAN UTAMA ADA DI BLOK INI: */
+        .hero {
+            /* MENGGANTI URL PLACEHOLDER DENGAN FILE LOKAL 'gapura_cirebon.jpg' */
+            background: url('kota cirebon.jpeg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /* MENINGKATKAN SHADOW AGAR TEKS LEBIH JELAS */
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+            margin-bottom: 20px;
+        }
+        /* AKHIR PERUBAHAN BLOK .hero */
+        
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section-title {
+            text-align: center;
+            color: #8B0000;
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .card-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 30%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CIREBON: KOTA WALI</h1>
+        <p>Jelajahi Jejak Sejarah di Balik Motif Megamendung</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="sejarah.html">Sejarah</a></li>
+            <li><a href="budaya.html">Budaya & Seni</a></li>
+            <li><a href="wisata.html">Destinasi Wisata</a></li>
+            <li><a href="kuliner.html">Kuliner Khas</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+        <div class="hero">
+            <h2>Selamat Datang di Cirebon</h2>
+            <p>Temukan Keindahan Budaya, Sejarah, dan Rasa yang Tak Terlupakan.</p>
+        </div>
+        <hr>
+
+        <h2 class="section-title">✨ Tiga Pesona Utama Cirebon</h2>
+        
+        <div class="card-grid">
+            
+            <div class="card">
+                <img src="keraton.jpg" alt="Keraton Kasepuhan">
+                <h3>Warisan Keraton</h3>
+                <p>Kunjungi empat Keraton yang menjadi saksi bisu kejayaan Islam di Jawa Barat: Kasepuhan, Kanoman, Kacirebonan, dan Keprabonan.</p>
+                <a href="sejarah.html">Baca Selengkapnya</a>
+            </div>
+
+            <div class="card">
+                <img src="batik.jpg" alt="Batik Megamendung">
+                <h3>Batik Megamendung</h3>
+                <p>Lihat proses pembuatan dan pelajari filosofi motif awan yang ikonik. Pusatnya ada di Desa Trusmi.</p>
+                <a href="budaya.html">Lihat Galeri</a>
+            </div>
+
+            <div class="card">
+                <img src="empal.jpg" alt="Empal Gentong">
+                <h3>Kuliner Legendaris</h3>
+                <p>Cicipi kelezatan Empal Gentong, Nasi Jamblang, dan Tahu Gejrot yang kaya rempah dan unik.</p>
+                <a href="kuliner.html">Cicipi Sekarang</a>
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pesona Cirebon | Dibuat dengan Cinta untuk Kota Kelahiran</p>
+    </footer>
+
+</body>
+</html>
